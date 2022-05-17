@@ -35,14 +35,5 @@ namespace Sandbox
 		{
 			base.Simulate( cl );
 		}
-
-		public override void FrameSimulate( Client cl )
-		{
-			base.FrameSimulate( cl );
-
-			// Update rotation every frame, to keep things smooth
-			Rotation = Input.Rotation;
-			EyeRotation = Rotation;
-		}
 	}
 }
