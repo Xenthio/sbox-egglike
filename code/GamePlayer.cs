@@ -1,9 +1,4 @@
-﻿using Sandbox;
-using System;
-using System.Linq;
-
-
-partial class GamePlayer : Player
+﻿partial class GamePlayer : Player
 {
 	/// <summary>
 	/// Called when the entity is first created 
