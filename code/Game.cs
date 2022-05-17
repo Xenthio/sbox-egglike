@@ -1,10 +1,8 @@
-﻿
-using Sandbox;
-using Sandbox.UI.Construct;
-using System;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿global using Sandbox;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Threading.Tasks;
 
 
 /// <summary>
