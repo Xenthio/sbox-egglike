@@ -4,7 +4,7 @@
 	/// Called when the entity is first created 
 	/// </summary>
 	/// 
-	public Clothing.Container Clothing = new();
+	public ClothingContainer Clothing = new();
 	public override void Spawn()
 	{
 		SetModel( "models/citizen/citizen.vmdl" );
